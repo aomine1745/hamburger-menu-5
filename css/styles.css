@@ -11,6 +11,9 @@ body{
 	height: 100vh;
 }
 .hamburger-box{
+	background-color: transparent;
+	outline: none;
+	border: none;
 	height: 24px;
 	cursor: pointer;
 	transition: .15s;
@@ -28,6 +31,7 @@ body{
 .hamburger:after{
 	content: '';
 	position: absolute;
+	left: 0;
 }
 .hamburger,
 .hamburger:before,
